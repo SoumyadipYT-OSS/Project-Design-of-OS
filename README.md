@@ -1,4 +1,4 @@
-![MasterHead](https://lms.adanisaksham.com/webservice/pluginfile.php/20986/course/overviewfiles/Operating%20system.gif?token=4b110668daa7729b0aca9cf984627e3a)
+![MasterHead](https://2.bp.blogspot.com/-RDKRLUIqpI8/XHeFQuzpqgI/AAAAAAAAB7I/Ipu8fJ1NDb4_ZNPpQKKWbqQD9x74NIZlgCLcBGAs/s1600/06_08_gif.gif)
 # Project-Design-of-OS
 **This project is based on my end-term 5th semester on Design of Operating System**
 
