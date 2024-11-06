@@ -6,11 +6,8 @@ Welcome to the **First-Come, First-Served (FCFS) Process Scheduler** project! Th
 - [Introduction](#introduction)
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Examples](#examples)
+- [Prerequisites](#prerequisites)
 - [Detailed Overview](#detailed-overview)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 The **FCFS Process Scheduler** is a fundamental simulation of process management within an operating system. In FCFS, processes are executed in the order they arrive, ensuring simplicity and fairness but potentially leading to high waiting times for longer processes.
