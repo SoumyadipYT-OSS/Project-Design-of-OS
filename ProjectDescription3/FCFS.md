@@ -81,3 +81,17 @@ The process is then removed from the queue.
 The scheduler moves to the next process in the queue and repeats the execution until all processes are completed.
 
 
+
+
+#### **Characteristics of FCFS:**
+1. Queue Mechanism: Processes are scheduled in the order they arrive. The first process to enter the ready queue is the first one to be executed.
+
+2. Non-preemptive: Once a process starts its execution, it runs to completion before the next process starts. This means that processes are not interrupted.
+
+
+
+##### Advantages of FCFS:
+1. Simplicity: Easy to understand and implement. It doesn’t require complex data structures or algorithms.
+
+2. Fairness: Every process gets a fair chance as it gets executed in the order it arrives, thus no process can suffer from starvation.
+
