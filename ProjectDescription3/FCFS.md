@@ -57,7 +57,7 @@ dotnet run
 ```
 
 
-#### **Detailed Overview**
+## Detailed Overview
 
 #### **What is FCFS? 🤔**
 First-Come, First-Served (FCFS) is one of the simplest and most straightforward scheduling algorithms used in operating systems. It ensures that the process that arrives first is executed first.
