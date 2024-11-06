@@ -95,3 +95,20 @@ The scheduler moves to the next process in the queue and repeats the execution u
 
 2. Fairness: Every process gets a fair chance as it gets executed in the order it arrives, thus no process can suffer from starvation.
 
+
+
+##### Disadvantages of FCFS:
+1. Poor Average Waiting Time: Long processes can significantly increase the waiting time of subsequent processes, leading to the “convoy effect,” where shorter processes get stuck waiting for long processes to complete.
+
+2. Non-preemptive Nature: It doesn’t consider process priorities or burst times, potentially leading to inefficient use of the CPU.
+
+3. Turnaround Time: The total turnaround time can be quite high for processes arriving late in the sequence.
+
+
+
+##### Practical Implementations of FCFS
+Despite its simplicity, FCFS is rarely used in modern operating systems for process scheduling due to its inefficiencies, especially in scenarios with varied process burst times. However, it is still used in some specific scenarios:
+
+Batch Processing: Environments where tasks are processed in large batches with similar execution times.
+
+Sequential Tasks: Systems where tasks must be executed in the exact order they arrive.
