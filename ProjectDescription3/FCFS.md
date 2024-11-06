@@ -62,28 +62,30 @@ dotnet run
 
 #### Detailed Overview
 
-#### **What is FCFS?**
+#### **What is FCFS? 🤔**
 First-Come, First-Served (FCFS) is one of the simplest and most straightforward scheduling algorithms used in operating systems. It ensures that the process that arrives first is executed first.
 
-#### *Step-by-Step Explanation
+#### *Step-by-Step Explanation📝*
 1.  Arrival and Queueing:
 
-Processes arrive in the ready queue and are placed in the order they arrive.
+Processes arrive in the ready queue and are placed in the order they arrive. 🚶‍♂️🚶‍♀️
+
 
 2.  Execution:
 
-The scheduler picks the first process in the queue and executes it until completion.
+The scheduler picks the first process in the queue and executes it until completion. ✅
 
-The process is then removed from the queue.
+The process is then removed from the queue. 🗑️
+
 
 3.  Next Process:
 
-The scheduler moves to the next process in the queue and repeats the execution until all processes are completed.
+The scheduler moves to the next process in the queue and repeats the execution until all processes are completed. 🔄
 
 
 
 
-#### **Characteristics of FCFS:**
+#### **Characteristics of FCFS: ⚙️**
 1. Queue Mechanism: Processes are scheduled in the order they arrive. The first process to enter the ready queue is the first one to be executed.
 
 2. Non-preemptive: Once a process starts its execution, it runs to completion before the next process starts. This means that processes are not interrupted.
@@ -106,7 +108,7 @@ The scheduler moves to the next process in the queue and repeats the execution u
 
 
 
-##### Practical Implementations of FCFS
+##### Practical Implementations of FCFS 🛠️
 Despite its simplicity, FCFS is rarely used in modern operating systems for process scheduling due to its inefficiencies, especially in scenarios with varied process burst times. However, it is still used in some specific scenarios:
 
 Batch Processing: Environments where tasks are processed in large batches with similar execution times.
