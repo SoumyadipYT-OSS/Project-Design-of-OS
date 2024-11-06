@@ -58,3 +58,26 @@ cd FCFS-Process-Scheduler/CSharp
 ```
 dotnet run
 ```
+
+
+#### Detailed Overview
+
+#### **What is FCFS?**
+First-Come, First-Served (FCFS) is one of the simplest and most straightforward scheduling algorithms used in operating systems. It ensures that the process that arrives first is executed first.
+
+#### *Step-by-Step Explanation
+1.  Arrival and Queueing:
+
+Processes arrive in the ready queue and are placed in the order they arrive.
+
+2.  Execution:
+
+The scheduler picks the first process in the queue and executes it until completion.
+
+The process is then removed from the queue.
+
+3.  Next Process:
+
+The scheduler moves to the next process in the queue and repeats the execution until all processes are completed.
+
+
