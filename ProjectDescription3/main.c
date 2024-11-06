@@ -6,10 +6,12 @@ typedef struct {
     int processID;
     int arrivalTime;
     int burstTime;
+    int waitingTime;
     int turnaroundTime;
     int responseTime;
     int ioBurstTime;
 } Process;
+
 
 
 
@@ -51,7 +53,7 @@ void FCFS(Process processes[], int n) {
     
     printf("\nAverage Waiting Time: %.2f\n", averageWaitingTime);
     printf("Average Turnaround Time: %.2f\n", averageTurnaroundTime);
-    print("Average Response Time: %.2f\n", averageResponseTime);
+    printf("Average Response Time: %.2f\n", averageResponseTime);
 
 
 
