@@ -72,7 +72,7 @@ void FCFS(Process processes[], int n) {
 }
 
 
-
+// main method
 int main() {
     int n;
 
